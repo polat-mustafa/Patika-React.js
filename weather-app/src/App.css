@@ -1,38 +1,82 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: darkslategray;
+}
 
+.App {
+  margin-top: 2rem;
+  width: 50rem;
+  height: 50rem;
+  border: 2px solid #ccc;
+  border-radius: 55px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(173, 253, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+img {
+  width: 15%;
+  height: 30%;
+}
+
+span {
+  font-size: 1em;
+  font-weight: bold;
 }
 
 h1 {
-    font-size: 3em;
-    text-align: center;
+  font-size: 3em;
+  text-align: center;
 }
 
 #weather-body {
-    width: 22rem;
-    height: 10rem;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 2rem;
-    margin-top: 2rem;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
+  margin-left: 12rem;
+  width: 25rem;
+  height: 18rem;
+  padding: 1rem;
+  margin-top: 4rem;
+  border: 2px solid #ccc;
+  border-radius: 55px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(15, 15, 15);
+  background: rgb(147, 191, 98);
+  background: linear-gradient(
+    0deg,
+    rgba(147, 191, 98, 1) 0%,
+    rgba(41, 193, 189, 1) 9%,
+    rgba(34, 193, 195, 1) 16%,
+    rgba(64, 193, 171, 1) 20%,
+    rgba(93, 192, 146, 1) 24%,
+    rgba(151, 191, 96, 1) 32%,
+    rgba(253, 187, 45, 1) 100%
+  );
 }
 
 input {
-    width: 20rem;
-    height: 2rem;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
+  width: 20rem;
+  height: 2rem;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1em;
+  font-weight: bold;
 }
 
+.bodys {
+  margin-top: 1rem;
+  font-size: larger;
+}
+
+h3 {
+  margin-top: 2rem;
+}

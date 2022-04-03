@@ -13,4 +13,6 @@
 
 <li> Context Api</li>
 
+<li> Local Storage</li>
+
 <li> Veriler için <a href="https://openweathermap.org/"> openweather</a> 'dan yararlanılmıştır.</li>
